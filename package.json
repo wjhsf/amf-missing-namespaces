@@ -1,0 +1,16 @@
+{
+  "name": "tmp-2",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^15.12.5",
+    "amf-client-js": "4",
+    "commerce-sdk-isomorphic": "git+https://github.com/SalesforceCommerceCloud/commerce-sdk-isomorphic",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}

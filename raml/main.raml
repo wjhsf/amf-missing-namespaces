@@ -1,0 +1,14 @@
+#%RAML 1.0
+version: v1
+
+uses:
+  Namespaced: lib.raml
+
+/endpoint:
+  post:
+    body:
+      type: Namespaced.RequestBody
+    responses:
+      200:
+        body:
+          type: Namespaced.ResponseBody
